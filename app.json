@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ListaTarefasPlus",
+    "slug": "listatarefasplus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seu.dominio.listatarefasplus"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.seu.dominio.listatarefasplus"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "listatarefasplus",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notify-icon.png",
+          "color": "#000000"
+        }
+      ],
+      "expo-web-browser",
+      "expo-localization"
+    ]
+  }
+}
