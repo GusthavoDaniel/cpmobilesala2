@@ -24,7 +24,7 @@ export default function TaskFormScreen({ route, navigation }) {
   const onChangeDate = (setterDate, setterFlag) => (_, d) => {
     setterFlag(false);
     if (d) setterDate(prev => {
-      // se já tinha hora, mantém; senão usa 09:00
+   
       const base = prev || new Date();
       const nd = new Date(d);
       nd.setHours(base.getHours(), base.getMinutes(), 0, 0);

@@ -12,7 +12,7 @@ WebBrowser.maybeCompleteAuthSession();
 
 const ANDROID_CLIENT_ID = "SEU_ANDROID_CLIENT_ID.apps.googleusercontent.com";
 const IOS_CLIENT_ID = "SEU_IOS_CLIENT_ID.apps.googleusercontent.com";
-const WEB_CLIENT_ID = "SEU_WEB_CLIENT_ID.apps.googleusercontent.com"; // use este como webClientId/expoClientId
+const WEB_CLIENT_ID = "SEU_WEB_CLIENT_ID.apps.googleusercontent.com"; 
 
 
 export default function LoginScreen() {
@@ -25,7 +25,7 @@ export default function LoginScreen() {
     androidClientId: ANDROID_CLIENT_ID,
     iosClientId: IOS_CLIENT_ID,
     webClientId: WEB_CLIENT_ID,
-    expoClientId: WEB_CLIENT_ID, // mantém compatível no Expo Go/Web
+    expoClientId: WEB_CLIENT_ID, 
     scopes: ['profile', 'email']
   });
 

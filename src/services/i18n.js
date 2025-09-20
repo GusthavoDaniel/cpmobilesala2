@@ -1,4 +1,4 @@
-// src/services/i18n.js (compatível com i18n-js v4+)
+
 import * as Localization from 'expo-localization';
 import { I18n } from 'i18n-js';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -36,9 +36,9 @@ const translations = {
   }
 };
 
-// Cria a instância e configura
+
 const i18n = new I18n(translations);
-i18n.enableFallback = true; // (equivale ao antigo fallbacks = true)
+i18n.enableFallback = true; 
 
 export const loadLocale = async () => {
   const saved = await AsyncStorage.getItem('@locale');
@@ -50,7 +50,7 @@ export const setLocale = async (locale) => {
   await AsyncStorage.setItem('@locale', locale);
 };
 
-// inicializa na carga do app
+
 loadLocale();
 
 export default i18n;

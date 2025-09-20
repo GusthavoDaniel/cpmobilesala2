@@ -7,7 +7,7 @@ import I18n from '../services/i18n';
 import { useQuery } from '@tanstack/react-query';
 import { useNavigation } from '@react-navigation/native';
 
-// Exemplo TanStack Query: frase motivacional
+
 async function fetchQuote() {
   const res = await fetch('https://api.quotable.io/random');
   return res.json();

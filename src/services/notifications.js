@@ -1,4 +1,4 @@
-// src/services/notifications.js
+
 import { Platform } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import * as Device from 'expo-device';
@@ -44,6 +44,6 @@ export async function scheduleTaskNotification({ id, title, when }) {
   if (!when) return;
   await Notifications.scheduleNotificationAsync({
     content: { title, body: '' },
-    trigger: when, // new Date() ou { seconds: 10 } etc.
+    trigger: when, 
   });
 }

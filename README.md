@@ -1,4 +1,14 @@
+INTEGRANTES
+
+RM554681 - GUSTHAVO DANIEL DE SOUZA
+
+RM
+
+
+
+
 # Lista Tarefas Plus
+
 
 Este projeto é um esqueleto de aplicativo móvel desenvolvido com React Native e Expo, baseado nos requisitos do CheckPoint 4 da disciplina de Mobile Application Development. Ele inclui a estrutura básica de pastas e as dependências recomendadas para facilitar o desenvolvimento das funcionalidades propostas.
 
