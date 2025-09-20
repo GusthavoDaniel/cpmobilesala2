@@ -9,7 +9,7 @@ RM555161 - Lucas Miranda Leite
 
 
 
-# Lista Tarefas Plus
+# Lista Tarefas 
 
 
 Este projeto é um esqueleto de aplicativo móvel desenvolvido com React Native e Expo, baseado nos requisitos do CheckPoint 4 da disciplina de Mobile Application Development. Ele inclui a estrutura básica de pastas e as dependências recomendadas para facilitar o desenvolvimento das funcionalidades propostas.
@@ -89,15 +89,6 @@ Para configurar e executar este projeto em seu ambiente local:
     *   Com o servidor de desenvolvimento rodando, escaneie o código QR exibido no terminal ou no navegador.
     *   O aplicativo será carregado no seu dispositivo.
 
-## Próximos Passos
 
-Este projeto fornece a base. Você precisará:
 
-*   Configurar o Firebase para seu projeto (criar um projeto no console do Firebase, adicionar as configurações ao seu aplicativo).
-*   Implementar a lógica de autenticação e armazenamento de dados no Firestore.
-*   Desenvolver as telas e componentes da interface do usuário.
-*   Integrar a API externa usando TanStack Query.
-*   Implementar a internacionalização e as notificações locais.
-
-Boa sorte com o desenvolvimento!
 
