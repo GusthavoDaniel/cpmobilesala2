@@ -2,7 +2,9 @@ INTEGRANTES
 
 RM554681 - GUSTHAVO DANIEL DE SOUZA
 
-RM
+RM555873 - Guilherme Damaiso Roselli
+
+RM555161 - Lucas Miranda Leite
 
 
 
